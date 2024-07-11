@@ -1,1 +1,6 @@
-# -
+2024年嵌入式代码
+
+代码在ai_sample的基础上修改：内容为：
+1.将原本yolov2hand_detect的后处理修改为yolov5人脸检测，对应输入尺寸为320x320
+2.添加了yolov5pose的后处理，但由于模型问题没有添加部署代码
+3.引入了nniefacelib库
